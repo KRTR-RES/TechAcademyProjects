@@ -1,0 +1,28 @@
+/* Here is the code we would write to add a silver border around the cells of the table (we are making it one px thick) */
+
+h1 {text-align:center;}
+
+table {
+	border:2px solid green;
+}
+
+/*Here is the code we would write to add a silver border around the cells of the table (we are making it one px thick) */
+
+td:hover {
+	background-color:grey;
+	color:black;
+}
+
+/*To make the top row have a black background and font written in a greenish hue, we write */
+
+tr, th {
+	background-color:#1C9257;
+	color:red;
+}
+
+/*And finally, to make the remaining rows have a dark green background and yellow font, we write: */
+
+tr, td {
+	background-color:darkgreen;
+	color: yellow;
+}
